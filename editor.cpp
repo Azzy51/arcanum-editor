@@ -1,4 +1,5 @@
-// Q7.cpp
+// editor.cpp - The Arcanum Editor
+// Assignment 2, Second Semester
 
 #ifndef UNICODE
 #define UNICODE
@@ -8,7 +9,7 @@
 #endif
 
 
-#include "Q7.h"
+#include "editor.h"
 
 // Character classification
 

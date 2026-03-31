@@ -2,26 +2,32 @@
 
 A multi-column text editor for manuscript formatting, built with pure C++ and WinAPI.
 
+## About
+
+This project was developed as **Assignment 2** for our **second semester** course. The task was to create a Windows GUI text editor for the fictional publishing house "Blackwood & Hargrove" using pure C++ and WinAPI calls.
+
 ## Features
 
 - Multi-column page layout with automatic word wrapping
 - Spell checking using a 176K word dictionary (trie-based)
-- Text search with highlighting
-- Auto-save with delta tracking
+- Text search with highlighting and history
+- Auto-save with delta tracking (maintains last 10 saves)
 - Multiple document tabs (up to 10 documents)
 - Cursor management and text selection
 - Clipboard operations (copy/paste/cut)
 - Right-click context menu
 - Text alignment (left, right, center, justified)
 - Statistics calculation (word count, character count, reading time)
-- Table of contents generation
+- Automatic Table of Contents generation
+- Mouse support (click to position, drag to select)
+- Auto-numbering page footers
 
 ## Building
 
 Compile with MinGW/g++:
 
 ```bash
-g++ -std=c++11 -DUNICODE -D_UNICODE -mwindows Q7.cpp -o Q7.exe -lgdi32 -luser32 -lcomdlg32
+g++ -std=c++11 -DUNICODE -D_UNICODE -mwindows editor.cpp -o arcanum_editor.exe -lgdi32 -luser32 -lcomdlg32
 ```
 
 ## Requirements
@@ -31,7 +37,7 @@ g++ -std=c++11 -DUNICODE -D_UNICODE -mwindows Q7.cpp -o Q7.exe -lgdi32 -luser32 
 
 ## Usage
 
-1. Run `Q7.exe`
+1. Run `arcanum_editor.exe`
 2. Configure your manuscript layout:
    - Columns per page (default: 2)
    - Lines per column (default: 20)
@@ -40,9 +46,27 @@ g++ -std=c++11 -DUNICODE -D_UNICODE -mwindows Q7.cpp -o Q7.exe -lgdi32 -luser32 
 
 ## Project Structure
 
-- `Q7.h` - Header file with all declarations
-- `Q7.cpp` - Implementation file with all functions
-- `OPTED-Dictionary.csv` - Spell check dictionary (not included in repo)
+- `editor.h` - Header file with all declarations
+- `editor.cpp` - Implementation file with all functions
+- `ASSIGNMENT.md` - The original assignment question
+
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| Ctrl+Tab | Next document tab |
+| Ctrl+Shift+Tab | Previous document tab |
+| Ctrl+S | Save document |
+| Ctrl+F | Search |
+| Ctrl+X | Cut |
+| Ctrl+C | Copy |
+| Ctrl+V | Paste |
+| Ctrl+L | Align Left |
+| Ctrl+R | Align Right |
+| Ctrl+E | Center Align |
+| Ctrl+J | Justify |
+| Ctrl+T | Toggle Table of Contents |
+| Ctrl+H | Search History |
 
 ## License
 

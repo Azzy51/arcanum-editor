@@ -1,4 +1,6 @@
-// Q7.h
+// editor.h - The Arcanum Editor
+// Assignment 2, Second Semester
+
 #ifndef ARCANUM_EDITOR_H
 #define ARCANUM_EDITOR_H
 
