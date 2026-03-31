@@ -6,6 +6,20 @@ A multi-column text editor for manuscript formatting, built with pure C++ and Wi
 
 This project was developed as **Question 7 of Assignment 2** for our **second semester** course. The task was to create a Windows GUI text editor for the fictional publishing house "Blackwood & Hargrove" using pure C++ and WinAPI calls.
 
+
+
+![dba2fed4-8128-42bf-9d87-130e400c8950](file:///C:/Users/PC/Pictures/Typedown/dba2fed4-8128-42bf-9d87-130e400c8950.png)
+
+
+
+![912f987d-96df-4c24-8e35-8872278b41c8](file:///C:/Users/PC/Pictures/Typedown/912f987d-96df-4c24-8e35-8872278b41c8.png)
+
+
+
+
+
+
+
 ## Features
 
 - Multi-column page layout with automatic word wrapping
@@ -52,21 +66,21 @@ g++ -std=c++11 -DUNICODE -D_UNICODE -mwindows editor.cpp -o arcanum_editor.exe -
 
 ## Keyboard Shortcuts
 
-| Shortcut | Action |
-|----------|--------|
-| Ctrl+Tab | Next document tab |
-| Ctrl+Shift+Tab | Previous document tab |
-| Ctrl+S | Save document |
-| Ctrl+F | Search |
-| Ctrl+X | Cut |
-| Ctrl+C | Copy |
-| Ctrl+V | Paste |
-| Ctrl+L | Align Left |
-| Ctrl+R | Align Right |
-| Ctrl+E | Center Align |
-| Ctrl+J | Justify |
-| Ctrl+T | Toggle Table of Contents |
-| Ctrl+H | Search History |
+| Shortcut       | Action                   |
+| -------------- | ------------------------ |
+| Ctrl+Tab       | Next document tab        |
+| Ctrl+Shift+Tab | Previous document tab    |
+| Ctrl+S         | Save document            |
+| Ctrl+F         | Search                   |
+| Ctrl+X         | Cut                      |
+| Ctrl+C         | Copy                     |
+| Ctrl+V         | Paste                    |
+| Ctrl+L         | Align Left               |
+| Ctrl+R         | Align Right              |
+| Ctrl+E         | Center Align             |
+| Ctrl+J         | Justify                  |
+| Ctrl+T         | Toggle Table of Contents |
+| Ctrl+H         | Search History           |
 
 ## License
 
