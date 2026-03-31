@@ -286,4 +286,4 @@ You can start working. For the starter code provided alongside, kindly paste it 
 
 ---
 
-*This assignment was completed as part of Assignment 2, Second Semester.*
+*This is Question 7 from Assignment 2, Second Semester.*

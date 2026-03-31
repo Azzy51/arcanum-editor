@@ -4,7 +4,7 @@ A multi-column text editor for manuscript formatting, built with pure C++ and Wi
 
 ## About
 
-This project was developed as **Assignment 2** for our **second semester** course. The task was to create a Windows GUI text editor for the fictional publishing house "Blackwood & Hargrove" using pure C++ and WinAPI calls.
+This project was developed as **Question 7 of Assignment 2** for our **second semester** course. The task was to create a Windows GUI text editor for the fictional publishing house "Blackwood & Hargrove" using pure C++ and WinAPI calls.
 
 ## Features
 
